@@ -1,0 +1,9 @@
+{
+  "name": "rotia",
+  "version": "0.0.1",
+  "description": "rodent rogue-ish rpg",
+  "main": "index.js",
+  "repository": "https://github.com/lukeabbott/rotia",
+  "author": "lukeabbott",
+  "license": "MIT"
+}
