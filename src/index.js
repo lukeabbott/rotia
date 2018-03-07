@@ -6,11 +6,10 @@ import Rodent from './rodent'
 class Rotia extends React.Component {
   render () {
     return (
-      <fragment>
-        <h1>Enjoy the game</h1>
-        <Rodent>Test</Rodent>
-        <Rodent>Second Test</Rodent>
-      </fragment>
+      <svg xmlns='http://www.w3.org/2000/svg' width='600' height='350' viewBox='0 0 600 350'>
+        <Rodent x='5' y='10'>Test</Rodent>
+        <Rodent x='400' y='250'>Second Test</Rodent>
+      </svg>
     )
   }
 }
