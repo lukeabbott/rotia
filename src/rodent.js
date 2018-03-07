@@ -16,10 +16,13 @@ class Rodent extends React.Component {
   }
   render () {
     return (
-      <div onClick={this.step.bind(this)} >{
-        this.state.step === 0 ? this.mouse : this.mouse1
-        }
-      </div>
+      <fragment>
+        <h1>{this.props.children}</h1>
+        <div onClick={this.step.bind(this)} >{
+          this.state.step === 0 ? this.mouse : this.mouse1
+          }
+        </div>
+      </fragment>
     )
   }
 }
